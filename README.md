@@ -19,6 +19,8 @@ L'interface de SARRA-O est composée de différents volets pour gérer la zone d
 
 Le logiciel nécessite des données d'entrée climatiques comme les précipitations, la température, le rayonnement global et l'évapotranspiration, ainsi que des informations sur les pratiques agricoles. Les résultats peuvent être sauvegardés sous forme d'images GeoTIFF pour être analysés.
 
+## Documentation
+
 Vous trouverez une documentation complète du logiciel [`à cette adresse`](https://sarra-h.teledetection.fr/wp-content/Petit_manuel_SARRA-O_V7.pdf). ⚠️ Attention, il s'agit de la documentation de la précédente version, bien que l'essentiel des informations y soient, certains points pourront différer avec la version actuelle du logiciel.
 
 ## Contribution et support
