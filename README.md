@@ -1,4 +1,4 @@
-# SARRA-O: Modèle de Culture Spatialisé
+# 🌿 SARRA-O: Modèle de Culture Spatialisé
 
 ## Description
 
@@ -10,7 +10,7 @@ Le modèle simule la production de biomasse limitée par l'eau et le rayonnement
 
 Le logiciel SARRA-O a été développé en langage Java. Pour l'installer, vous devez disposer de Java et suivre les étapes suivantes :
 
-1. [Télécharger l'installeur depuis ce lien (v1.11 hotfix 20230331)](https://sarra-h.teledetection.fr/wp-content/SARRA-O_v1.11_hotfix_20230331_setup.exe)
+1. Télécharger l'installeur [`depuis ce lien (v1.11 hotfix 20230331)`](https://sarra-h.teledetection.fr/wp-content/SARRA-O_v1.11_hotfix_20230331_setup.exe)
 2. Exécuter l'installeur
 
 ## Utilisation
@@ -19,13 +19,15 @@ L'interface de SARRA-O est composée de différents volets pour gérer la zone d
 
 Le logiciel nécessite des données d'entrée climatiques comme les précipitations, la température, le rayonnement global et l'évapotranspiration, ainsi que des informations sur les pratiques agricoles. Les résultats peuvent être sauvegardés sous forme d'images GeoTIFF pour être analysés.
 
+Vous trouverez une documentation complète du logiciel [`à cette adresse`](https://sarra-h.teledetection.fr/wp-content/Petit_manuel_SARRA-O_V7.pdf). ⚠️ Attention, il s'agit de la documentation de la précédente version, bien que l'essentiel des informations y soient, certains points pourront différer avec la version actuelle du logiciel.
+
 ## Contribution et support
 
-Les contributions à SARRA-O sont les bienvenues. Vous pouvez contribuer en rapportant des bugs, en proposant de nouvelles fonctionnalités.
+Les contributions à SARRA-O sont les bienvenues. Vous pouvez contribuer en rapportant des bugs, en proposant de nouvelles fonctionnalités en ouvrant un ticket [`dans la section Issues`](https://github.com/SARRA-cropmodels/SARRA-O/issues).
 
-Le support se fait en ouvrant un ticket dans la rubrique "issues".
+Le support utilisateur se fait également en ouvrant un ticket [`dans la section Issues`](https://github.com/SARRA-cropmodels/SARRA-O/issues).
 
 ## Licence
 
-SARRA-O est distribué sous licence CeCILL-C v1.0
+SARRA-O est distribué sous licence CeCILL-C v1.0. Veuillez consulter le fichier `LICENSE` pour plus d'informations.
 
