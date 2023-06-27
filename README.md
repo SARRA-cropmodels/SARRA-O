@@ -10,7 +10,7 @@ Le modèle simule la production de biomasse limitée par l'eau et le rayonnement
 
 Le logiciel SARRA-O a été développé en langage Java. Pour l'installer, vous devez disposer de Java et suivre les étapes suivantes :
 
-1. Télécharger l'installeur [`depuis ce lien (v1.11 hotfix 20230331)`](https://sarra-h.teledetection.fr/wp-content/SARRA-O_v1.11_hotfix_20230331_setup.exe)
+1. Télécharger l'installeur
 2. Exécuter l'installeur
 
 ## Utilisation
