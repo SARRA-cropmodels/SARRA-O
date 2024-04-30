@@ -33,7 +33,11 @@ You will find a climate and rainfall data starter pack for Niger 1982-2021 avail
 
 ## Documentation
 
-You can find comprehensive documentation of the software [at this address](https://github.com/SARRA-cropmodels/SARRA-O/blob/main/docs/Petit_manuel_SARRA-O_V7.pdf). ⚠️ Note, this is the documentation for the previous version, although most of the information is there, some points may differ from the current version of the software.
+The following documentation resources are available for reference:
+
+- User Manual [[FR, v7](./docs/FR-Petit_manuel_SARRA-O_V7.pdf)/[EN, v8](./docs/EN-SARRA-O_manual_V8.pdf)]: Provides detailed instructions on using SARRA-O and its various features. 
+
+⚠️ Note, this is the documentation for the previous version, although most of the information is there, some points may differ from the current version of the software.
 
 ## Contribution and Support
 
