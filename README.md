@@ -1,5 +1,7 @@
 # 🌿 SARRA-O: Spatial Crop Model
 
+This is the README file for SARRA-O.
+
 ## Description
 
 SARRA-O is a spatial crop model that simulates crop processes at the plot scale. It is a tool developed by CIRAD and UMR TETIS that allows for crop simulation over large areas and in a variety of situations.
@@ -27,15 +29,19 @@ The SARRA-O interface consists of different panels to manage the simulation stud
 
 The software requires climatic input data such as precipitation, temperature, global radiation, and evapotranspiration, as well as information about agricultural practices. Results can be saved as GeoTIFF images for analysis.
 
+You will find a climate and rainfall data starter pack for Niger 1982-2021 available on Zenodo [doi:10.5281/zenodo.11091602](https://zenodo.org/doi/10.5281/zenodo.11091602), that will allow you to run example simulations.
+
 ## Documentation
 
 You can find comprehensive documentation of the software [at this address](https://github.com/SARRA-cropmodels/SARRA-O/blob/main/docs/Petit_manuel_SARRA-O_V7.pdf). ⚠️ Note, this is the documentation for the previous version, although most of the information is there, some points may differ from the current version of the software.
 
 ## Contribution and Support
 
+Development forge is hosted by Cirad at https://gitlab.cirad.fr/sarrao, and maintained by @MathCastets.
+
 Contributions to SARRA-O are welcome. You can contribute by reporting bugs, proposing new features by opening a ticket [in the Issues section](https://github.com/SARRA-cropmodels/SARRA-O/issues).
 
-User support is also provided by opening a ticket [in the Issues section](https://github.com/SARRA-cropmodels/SARRA-O/issues).
+User support is also provided preferentiallt by opening a ticket [in the Issues section](https://github.com/SARRA-cropmodels/SARRA-O/issues). If needed you can reach us at sarra-h@cirad.fr. 
 
 ## License
 
