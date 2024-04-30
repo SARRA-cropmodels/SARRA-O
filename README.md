@@ -1,35 +1,42 @@
-# 🌿 SARRA-O: Modèle de Culture Spatialisé
+# 🌿 SARRA-O: Spatial Crop Model
 
 ## Description
 
-SARRA-O est un modèle de culture spatialisé qui simule les processus de culture à l'échelle de la parcelle. Il s'agit d'un outil développé par le CIRAD et l'UMR TETIS qui permet d'exécuter des simulations de culture sur de grandes superficies et dans une diversité de situations.
+SARRA-O is a spatial crop model that simulates crop processes at the plot scale. It is a tool developed by CIRAD and UMR TETIS that allows for crop simulation over large areas and in a variety of situations.
 
-Le modèle simule la production de biomasse limitée par l'eau et le rayonnement, et prend en compte diverses pratiques agricoles comme la stratégie de semis, la densité des semis, la stratégie d’irrigation, les choix du cultivar et le niveau global d’intensification.
+The model simulates biomass production limited by water and radiation, and considers various agricultural practices such as sowing strategy, seeding density, irrigation strategy, cultivar choices, and the overall level of intensification.
+
+It is based on the formalisms of SARRA-H, which itself is a are more detailed version of the SARRA model, a simple dynamic water balance model used to estimate the impact of climate scenarios on annual crops. In SARRA-H, the plant is considered as a conduit that couples atmospheric demand (sink) with a "useful" water reserve in the soil (source) - a conduit with variable resistance depending on the physical constraint (stress). The SARRA-H model assume that crop performance is a simple function of accumulated water stress over a growing cycle.
+
+SARRA-H has demonstrated good robustness across spatial scales (from plot to region) and for multiple applications, such as at the AGRHYMET early warning system for food security in the CILSS countries, local climate risk analysis, and water requirement estimation. However, its validity relies on the presence of strong water limitation and/or significant spatial or temporal variability of this limitation. In other words, this model is based entirely on growth reduction rather than simulating potential yield.
+
+Compared to other models such as CERES, APSIM, and STICS, the SARRA-H model is deterministic and relatively simple, but simulates more processes than AQUACROP, which is a reference model proposed by FAO. SARRA-H is integrated into a flexible environment that manages a library of formalisms and a database. This model replicates plot-scale processes, enabling regional-scale analysis. Moreover, it can serve as a basic support for other scientific themes through complementary modules or interfaces with other models (meteorological, socio-economic, etc.).
+
+SARRA-O performs SARRA-H spatialization by using a grid system, and encapsulates this computation capacity along West Africa in a Java software based on the Ocelet Modeling Platform (OMP).
 
 ## Installation
 
-Le logiciel SARRA-O a été développé en langage Java. Pour l'installer, vous devez disposer de Java et suivre les étapes suivantes :
+The SARRA-O software was developed in Java. To install it, you must have Java and follow these steps:
 
-1. Télécharger l'installeur
-2. Exécuter l'installeur
+1. Download the installer at [this address](http://sarra-h.teledetection.fr/wp-content/SARRA-O_v1.11_hotfix_20230331_setup.exe)
+2. Execute the installer
 
-## Utilisation
+## Usage
 
-L'interface de SARRA-O est composée de différents volets pour gérer la zone d'étude de simulation, les scénarios de simulations, les variables de sortie, et le lancement des simulations.
+The SARRA-O interface consists of different panels to manage the simulation study area, simulation scenarios, output variables, and the launch of simulations.
 
-Le logiciel nécessite des données d'entrée climatiques comme les précipitations, la température, le rayonnement global et l'évapotranspiration, ainsi que des informations sur les pratiques agricoles. Les résultats peuvent être sauvegardés sous forme d'images GeoTIFF pour être analysés.
+The software requires climatic input data such as precipitation, temperature, global radiation, and evapotranspiration, as well as information about agricultural practices. Results can be saved as GeoTIFF images for analysis.
 
 ## Documentation
 
-Vous trouverez une documentation complète du logiciel [`à cette adresse`](https://sarra-h.teledetection.fr/wp-content/Petit_manuel_SARRA-O_V7.pdf). ⚠️ Attention, il s'agit de la documentation de la précédente version, bien que l'essentiel des informations y soient, certains points pourront différer avec la version actuelle du logiciel.
+You can find comprehensive documentation of the software [at this address](https://github.com/SARRA-cropmodels/SARRA-O/blob/main/docs/Petit_manuel_SARRA-O_V7.pdf). ⚠️ Note, this is the documentation for the previous version, although most of the information is there, some points may differ from the current version of the software.
 
-## Contribution et support
+## Contribution and Support
 
-Les contributions à SARRA-O sont les bienvenues. Vous pouvez contribuer en rapportant des bugs, en proposant de nouvelles fonctionnalités en ouvrant un ticket [`dans la section Issues`](https://github.com/SARRA-cropmodels/SARRA-O/issues).
+Contributions to SARRA-O are welcome. You can contribute by reporting bugs, proposing new features by opening a ticket [in the Issues section](https://github.com/SARRA-cropmodels/SARRA-O/issues).
 
-Le support utilisateur se fait également en ouvrant un ticket [`dans la section Issues`](https://github.com/SARRA-cropmodels/SARRA-O/issues).
+User support is also provided by opening a ticket [in the Issues section](https://github.com/SARRA-cropmodels/SARRA-O/issues).
 
-## Licence
+## License
 
-SARRA-O est distribué sous licence CeCILL-C v1.0. Veuillez consulter le fichier `LICENSE` pour plus d'informations.
-
+SARRA-O is distributed under the CeCILL-C v1.0 license. Please consult the `LICENSE` file for more information.
